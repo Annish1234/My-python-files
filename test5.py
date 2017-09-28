@@ -3,7 +3,7 @@ import random
 count=0
 r=0
 while count<=100:
-	roll=input("press r to roll dice")
+	roll=input("press r to roll dice")# input given to run the programme 
 	if roll=="r":
 		r=random.randint(1,6)
 		count=count+r
@@ -14,7 +14,7 @@ while count<=100:
 		else:
 			if count==8:
 				count=37
-				print ("you got a ladder to",count)
+				print ("you got a ladder to",count)#if you get 8 then the count goes to 37 and prints you got a ladder
 			elif count==13:
 				count=34
 				print ("you got a ladder to",count)
@@ -29,7 +29,7 @@ while count<=100:
 				print ("you got a ladder to",count)
 			elif count==38:
 				count=9
-				print ("snake bit you go down to",count)
+				print ("snake bit you go down to",count)# here you  go down as the condition you are given
 			elif count==93:
 				count=64
 				print ("snake bit you go down to",count)
@@ -45,4 +45,8 @@ while count<=100:
 			elif count==89:
 				count=70
 				print ("snake bit you go down to",count)
+				#these are the conditions given  while the programme is running
+				# by this programme you can play a snake n ladder game
+				
+				
 	
