@@ -30,7 +30,7 @@ s.starttls()
 s.login("annishjk01@gmail.com", "krishna@123")
  
 # message to be sent
-message = " You said : " + r.recognize_google(audio)
+message =  r.recognize_google(audio)
  
 # sending the mail
 s.sendmail("annishjk01@gmail.com", "annishjk01@gmail.com", message)
