@@ -22,5 +22,5 @@ except sr.RequestError as e:
     print("Could not request results from Google Speech Recognition service; {0}".format(e))
 if  r.recognize_google(audio) == "take picture" :
 											cmd = "fswebcam -F 3 --fps 20 -r 800x600 cam" + ".jpg"
-											os.system(cmd)
+											os.system(cmd) # this command captures the image when we say the word " camera"
 	  
