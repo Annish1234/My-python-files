@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 # importing the required module
 
-import matplotlib.pyplot as plt
+import matplotlib.pyplot as plt # matplotlib is the library required for plotting graphs 
  
 # x axis values
 x = [1,2,3]
