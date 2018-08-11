@@ -1,6 +1,6 @@
 #include<stdio.h>
 int main()
-{int count, first_term=0, second_term=0,next_term,i;
+{int count, first_term=0, second_term=1,next_term,i;
 printf ("Enter the number of terms\n");
 scanf("%d", & count);
 printf ("First %d term of fibonacci series\n",count);
